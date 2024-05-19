@@ -5,7 +5,7 @@ ThisBuild / scalaVersion := "3.3.3"
 lazy val root = (project in file("."))
   .settings(
     name             := "harvestr",
-    idePackagePrefix := Some("io.rudder")
+    idePackagePrefix := Some("fanf")
   )
 
 libraryDependencies ++= List(
